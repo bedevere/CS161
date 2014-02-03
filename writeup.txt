@@ -1,0 +1,39 @@
+Diagonal Text Program:
+
+	This monster took about 12 hours total and the big hangup was trying to use
+lists to make it work.  I ditched the list idea about hour 6ish and went to the 
+current layout of 'for' loops.  Once I commited to using 'for' loops I really had
+to dig deep to figure out how to use the correctly and the moment I got the program
+to print out a 3 X 5 array of '.' I was set.  My program at the point that it first
+worked correctly the 'for' loop was a little more than twice its current size and it
+took going to the CS tutors to figure out what exactly I had done to make it work.
+Overall it was well worth the time and I feel much more confident about using 'for'
+loops.
+
+Xstrings Program:
+
+	Initially I tried to use lists to store X's and the position of the substring
+but this failed magnificently.  I settled on the 'for' loop with a bunch of 'if' 
+functions in order to set a counter variable and position variable.  The bigest 
+problem I had with writing this program happened during testing (which is the point!).
+The issue was that when the longest sub-string of X's was = to 1 and was at the 
+beginning the count was off by one.  I fixed this by adding another 'if' function
+whose job it was to address that specific error.  This resulted in the error
+where when the longest sub-string of X's was = to 1 and was at the end of the 
+string the position was off by one.  My final fix for this was adding the same 
+'if' function to the beginning and the end of my 'for' loop.  The last 'if' function
+in my 'for' loop addresses the situation where the longest sub-string of X's is 
+1 X long and starts at the last position of the string.  The first 'if' function 
+addresses all other situations.
+	This little bit of troubleshooting took about three hours of different 
+methods.  What ended up being the most successful was walking step by step through 
+the program and examinging what was happening at each point.  This was probably
+the most valuable thing I learned from this last part.
+
+OVERALL:
+
+	I wanted use a better planning process on this homework project and it
+proved invaluable.  I think I spent about 3-4 hours on a whiteboard or a piece 
+of paper or looking up info from the book/web and about 1 hour writing it.  Diagonal 
+Text took a lot more planning since I was pretty disorganized and I am still
+working through how the language works but it help working through my thoughts.       

@@ -1,0 +1,172 @@
+Tests:
+
+Test # 1
+Input: XCCXX
+Expected Output:
+
+The longest string of X's in your string started at 
+position 4 and the length of the string was 2.
+
+Actual Output:
+
+The longest string of X's in your string started at 
+position 4 and the length of the string was 2 .
+
+Note: Space after '2' not expected was unable to fix,
+adjusted tests to reflect this.
+
+Test # 2
+Input: xccxx
+Expected Output:
+
+There are no capital X's in your string.
+(Prompts for exit confirmation)
+
+Actual Output:
+
+There are no capital X's in your string.
+(Prompted for exiting IDLE)
+
+Test # 3
+Input: fgXXdeXXXXabcXXX
+Expected Output:
+
+The longest string of X's in your string started at 
+position 7 and the length of the string was 4 .
+
+Actual Output:
+
+The longest string of X's in your string started at 
+position 7 and the length of the string was 4 .
+
+
+Test # 4
+Input: XCXCXCXCXCXCX 
+Expected Output:
+
+The longest string of X's in your string started at 
+position 1 and the length of the string was 1 .
+
+Actual Output:
+
+The longest string of X's in your string started at 
+position 2 and the length of the string was 1 .
+
+Notes: Position "2" not expected, this is due the count variable being set to
+"+1" each time an "X" is found.  Expect this to only effect the output if the longest
+substring of X's starts at the beginning of the string. Added an 'if' function
+to manage this error starting with test # 5.
+
+Test # 5
+Input: XCXCXCXCXCXCX
+Expected Output:
+
+The longest string of X's in your string started at 
+position 1 and the length of the string was 1 .
+
+Actual Output:
+
+The longest string of X's in your string started at 
+position 1 and the length of the string was 1 .
+
+Notes:
+Issue with position 1 = position 2 fixed.
+
+Test # 6
+Input: acbXXXXXbbbbXXXXXhfnsdoXX
+Expected Output:
+
+The longest string of X's in your string started at 
+position 4 and the length of the string was 5 .
+
+Actual Output:
+
+The longest string of X's in your string started at 
+position 4 and the length of the string was 5 .
+
+Test # 7
+Input: acbXXXXbbbbXXXXXhfnsdoXX
+Expected Output:
+
+The longest string of X's in your string started at 
+position 12 and the length of the string was 5 .
+
+Actual Output:
+
+The longest string of X's in your string started at 
+position 12 and the length of the string was 5 .
+
+Test # 8
+Input: XXXXXXXXXX
+Expected Output:
+
+The longest string of X's in your string started at 
+position 1 and the length of the string was 10 .
+
+Actual Output:
+
+The longest string of X's in your string started at 
+position 1 and the length of the string was 10 .
+
+Test # 9
+Input: THERE ARE NO X'S IN THIS STRING!!! 
+Expected Output:
+
+The longest string of X's in your string started at 
+position 14 and the length of the string was 1 .
+
+Actual Output:
+
+The longest string of X's in your string started at 
+position 15 and the length of the string was 1 .
+
+Note: 
+My fix for test 4 broke something else (full notes in writeup).
+
+Test #10
+Input: Xooo
+Expected Output:
+
+The longest string of X's in your string started at 
+position 1 and the length of the string was 1 .
+
+Actual Output: 
+
+The longest string of X's in your string started at 
+position 1 and the length of the string was 1 .
+
+Test #11
+Input:oXoo
+Expected Output:
+
+The longest string of X's in your string started at 
+position 2 and the length of the string was 1 .
+
+Actual Output:
+
+The longest string of X's in your string started at 
+position 2 and the length of the string was 1 .
+
+Test #12
+Input:ooXo
+Expected Output:
+
+The longest string of X's in your string started at 
+position 3 and the length of the string was 1 .
+
+Actual Output:
+
+The longest string of X's in your string started at 
+position 3 and the length of the string was 1 .
+
+Test #13
+Input: oooX
+Expected Output:
+
+The longest string of X's in your string started at 
+position 4 and the length of the string was 1 .
+
+Actual Output:
+
+The longest string of X's in your string started at 
+position 4 and the length of the string was 1 . 

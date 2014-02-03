@@ -1,0 +1,136 @@
+Tests:
+
+Test: 1
+String: word
+Integer: 4
+Expected Output:
+
+w...
+.o..
+..r.
+...d
+
+Actual Output:
+
+w . . . 
+. o . . 
+. . r . 
+. . . d 
+
+
+Test: 2
+String: word
+Integer: 2
+Expected Output:
+
+w.r.
+.o.d
+
+Actual Output:
+
+w . r . 
+. o . d 
+
+Test: 3
+String: Hello World! 
+Integer: 3
+Expected Output:
+
+H..l..W..l..
+.e..o..o..d.
+..l.. ..r..!
+
+Actual Output:
+
+H . . l . . W . . l . . 
+. e . . o . . o . . d . 
+. . l . .   . . r . . ! 
+
+Test: 4
+String: Hello World!
+Integer: 6
+Expected Output:
+
+H.....W.....
+.e.....o....
+..l.....r...
+...l.....l..
+....o.....d.
+..... .....!
+
+Actual Output:
+
+H . . . . . W . . . . . 
+. e . . . . . o . . . . 
+. . l . . . . . r . . . 
+. . . l . . . . . l . . 
+. . . . o . . . . . d . 
+. . . . .   . . . . . ! 
+
+Second Run Output after modifying the code:
+
+H.....W.....
+.e.....o....
+..l.....r...
+...l.....l..
+....o.....d.
+..... .....!
+
+Test: 5
+String: Hello World!
+Integer: 12
+Expected Output:
+
+H............
+.e...........
+..l..........
+...l.........
+....o........
+..... .......
+.......W.....
+........o....
+.........r...
+..........l..
+...........d.
+............!
+
+Actual Output:
+
+H...........
+.e..........
+..l.........
+...l........
+....o.......
+..... ......
+......W.....
+.......o....
+........r...
+.........l..
+..........d.
+...........!
+
+Test: 6
+String: Hello World!
+Integer: 13
+Expected Output:
+
+Number should be between 1 and the length of the string.
+(program exits)
+
+Actual Output:
+
+Number should be between 1 and the length of the string.
+(prompted to exit IDLE)
+
+Test: 7
+String: Hello World!
+Integer: 1
+Expected Output:
+
+'Number should be between 1 and the length of the string.'
+(program exits)
+
+Acutal Output:
+
+Number should be between 1 and the length of the string.
+(prompted to exit IDLE)
